@@ -12,8 +12,17 @@
     display: flex;
 }
 
+
 .align-center {
     align-items: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
 }
 
 /* end box */
@@ -67,6 +76,12 @@
 
 .fs-14 {
     font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
 }
 
 /* end font */
